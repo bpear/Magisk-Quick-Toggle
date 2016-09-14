@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Magisk Quick Toggle</string>
-    <string name="tile_label">Toggle Root</string>
+    <string name="tile_label">Root</string>
 </resources>

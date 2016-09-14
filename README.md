@@ -10,6 +10,9 @@ This requires Magisk to be installed http://forum.xda-developers.com/android/sof
 - https://github.com/topjohnwu for creating Magisk and for his modifed libsuperuser which I used in this application.
 - https://github.com/StackTipsLab/AndroidN-Quick-Settings-Tile-Example This example proved to be helpful in understanding the new Quick Setting API in Nougat
 
+**TODO:**
+- Create better icons for toggle. Match stock icons more accurately
+
 License
 -------
 
