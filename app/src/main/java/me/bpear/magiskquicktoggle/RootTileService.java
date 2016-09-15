@@ -47,13 +47,17 @@ public class RootTileService extends TileService{
             // Hide/unmount Magisk root
             Shell.su("setprop magisk.root 0");
             icon =  Icon.createWithResource(getApplicationContext(), R.drawable.ic_root_off);
+            getQsTile().setIcon(icon);
+            getQsTile().setState(Tile.STATE_INACTIVE);
+            getQsTile().updateTile();
         } else {
             toggleState = 1;
             // Mount Magisk root
             Shell.su("setprop magisk.root 1");
             icon = Icon.createWithResource(getApplicationContext(), R.drawable.ic_root);
+            getQsTile().setIcon(icon);
+            getQsTile().setState(Tile.STATE_ACTIVE);
+            getQsTile().updateTile();
         }
-        getQsTile().setIcon(icon);
-        getQsTile().updateTile();
     }
 }
