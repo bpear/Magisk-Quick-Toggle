@@ -1,6 +1,7 @@
 package me.bpear.magiskquicktoggle;
 
 import android.graphics.drawable.Icon;
+import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 
 import me.bpear.magiskquicktoggle.utils.Shell;
